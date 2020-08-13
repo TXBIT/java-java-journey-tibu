@@ -64,5 +64,22 @@ public class Main {
             System.out.println("Either or both the conditions are true");
         }
 
+        int newValue = 50;
+//        if (newValue = 50) {
+//            System.out.println("This is an error");
+//        }
+
+        if (newValue == 50) {
+            System.out.println("This is true");
+        }
+
+        boolean isCar = false;
+//        if (isCar = true) { // reassign true to isCar
+//            System.out.println("This is not supposed to happen");
+//        }
+
+        if (isCar) {
+            System.out.println("This will not be printed");
+        }
     }
 }
